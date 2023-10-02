@@ -1,0 +1,45 @@
+.card-contanier{
+    width:250px; 
+    height: 250px;
+    top: 23%;
+    left: 15px;
+    background-color: #fdfdfdb9;
+    position: fixed;
+    border-radius: 8px;
+    border: 2px solid #fdfdfdb9;
+
+}
+
+.character-img{
+    width: 250px;
+    height: 180px;
+    object-fit: cover;
+
+
+}
+
+.name-character{
+    color: #ff0000;
+    font-size :16px;
+    font-family:'Arial Bold', sans-serif;
+    position: relative;
+    left: 5%;
+    margin-bottom: 0;
+
+}
+
+.description-character{
+    color: black;
+    font-size: 12px;
+    left: 5px;
+    margin-top: 0%;
+    position: relative;
+    font-family: 'Arial', sans-serif;
+
+}
+
+.footer-text{
+    font-size: small;
+    margin-top: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
