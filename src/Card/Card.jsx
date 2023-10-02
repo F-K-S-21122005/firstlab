@@ -14,10 +14,10 @@ function Card(){
     return (
     <>
     <div>
-        <div class = "card-contanier">
-            <img class = 'character-img' src = {imagePath} altText= {imgText}></img>
-            <p class = "name-character">{name}</p>
-            <p class = "description-character">{description}</p>
+        <div className = "card-contanier">
+            <img className = 'character-img' src = {imagePath} altText= {imgText}></img>
+            <p className = "name-character">{name}</p>
+            <p className = "description-character">{description}</p>
             
         </div>
 

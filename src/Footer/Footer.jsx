@@ -9,9 +9,9 @@ function Footer(){
     console.log(year);
     return(
       <>
-      <footer class="footer">
-        <img class = "marvel_logo_footer" src = {imagePath} alt = {altText}></img>
-        <p class = "footer-text">Data provide by Marvel {year} MARVEL</p>
+      <footer className="footer">
+        <img className = "marvel-logo-footer" src = {imagePath} alt = {altText}></img>
+        <p className = "footer-text">Data provide by Marvel {year} MARVEL</p>
   
       </footer>
       </>
